@@ -1,2 +1,2 @@
 # infOS
-infOS
+Operating System coursework
