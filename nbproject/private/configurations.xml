@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="coursework">
+        <in>buddy.cpp</in>
+        <in>cmos-rtc.cpp</in>
+        <in>sched-rr.cpp</in>
+      </df>
+      <df name="coursework-skeletons">
+        <in>buddy.cpp</in>
+        <in>cmos-rtc.cpp</in>
+        <in>sched-rr.cpp</in>
+      </df>
+      <df name="infos">
+        <df name="arch">
+          <df name="x86">
+            <df name="acpi">
+              <in>acpi.cpp</in>
+            </df>
+            <df name="util">
+              <in>fast-string.S</in>
+            </df>
+            <in>abort.S</in>
+            <in>assert.cpp</in>
+            <in>cpu.cpp</in>
+            <in>devices.cpp</in>
+            <in>dt.cpp</in>
+            <in>early-screen.cpp</in>
+            <in>irq.cpp</in>
+            <in>mm.cpp</in>
+            <in>modules.cpp</in>
+            <in>multiboot.S</in>
+            <in>platform.cpp</in>
+            <in>qemu-stream.cpp</in>
+            <in>sched.cpp</in>
+            <in>start.cpp</in>
+            <in>start32.S</in>
+            <in>start64.S</in>
+            <in>syscall-trap.S</in>
+            <in>syscall.cpp</in>
+            <in>trap.S</in>
+            <in>x86-arch.cpp</in>
+          </df>
+        </df>
+        <df name="build">
+        </df>
+        <df name="drivers">
+          <df name="ata">
+            <in>ata-controller.cpp</in>
+            <in>ata-device.cpp</in>
+          </df>
+          <df name="block">
+            <in>block-device-partition.cpp</in>
+            <in>block-device.cpp</in>
+          </df>
+          <df name="console">
+            <in>console.cpp</in>
+            <in>physical-console.cpp</in>
+            <in>virtual-console.cpp</in>
+          </df>
+          <df name="input">
+            <in>keyboard.cpp</in>
+          </df>
+          <df name="irq">
+            <in>ioapic.cpp</in>
+            <in>lapic.cpp</in>
+          </df>
+          <df name="pci">
+            <in>bridge.cpp</in>
+            <in>display.cpp</in>
+            <in>network.cpp</in>
+            <in>pci-bus.cpp</in>
+            <in>pci-device.cpp</in>
+            <in>storage.cpp</in>
+          </df>
+          <df name="terminal">
+            <in>terminal.cpp</in>
+          </df>
+          <df name="timer">
+            <in>lapic-timer.cpp</in>
+            <in>pit.cpp</in>
+            <in>rtc.cpp</in>
+            <in>timer.cpp</in>
+          </df>
+          <df name="video">
+            <in>vga-console.cpp</in>
+          </df>
+          <in>controller.cpp</in>
+          <in>device.cpp</in>
+        </df>
+        <df name="fs">
+          <df name="exec">
+            <in>elf-loader.cpp</in>
+          </df>
+          <in>block-based-filesystem.cpp</in>
+          <in>devfs.cpp</in>
+          <in>directory.cpp</in>
+          <in>filesystem.cpp</in>
+          <in>internal-driver.cpp</in>
+          <in>rootfs.cpp</in>
+          <in>tmpfs.cpp</in>
+          <in>vfat.cpp</in>
+          <in>vfs-node.cpp</in>
+          <in>vfs.cpp</in>
+        </df>
+        <df name="include">
+          <df name="arch">
+            <df name="x86">
+              <df name="acpi">
+                <in>acpi.h</in>
+              </df>
+              <in>context.h</in>
+              <in>cpu.h</in>
+              <in>cpuid.h</in>
+              <in>dt.h</in>
+              <in>early-screen.h</in>
+              <in>init.h</in>
+              <in>irq-entry-points.h</in>
+              <in>irq.h</in>
+              <in>msr.h</in>
+              <in>multiboot.h</in>
+              <in>pio.h</in>
+              <in>qemu-stream.h</in>
+              <in>x86-arch.h</in>
+            </df>
+            <in>arch.h</in>
+            <in>interface.h</in>
+          </df>
+          <df name="infos">
+            <df name="drivers">
+              <df name="ata">
+                <in>ata-controller.h</in>
+                <in>ata-device.h</in>
+              </df>
+              <df name="block">
+                <in>block-device-partition.h</in>
+                <in>block-device.h</in>
+              </df>
+              <df name="console">
+                <in>console.h</in>
+                <in>physical-console.h</in>
+                <in>virtual-console.h</in>
+              </df>
+              <df name="input">
+                <in>keyboard.h</in>
+              </df>
+              <df name="irq">
+                <in>ioapic.h</in>
+                <in>lapic.h</in>
+              </df>
+              <df name="pci">
+                <in>bridge.h</in>
+                <in>display.h</in>
+                <in>network.h</in>
+                <in>pci-bus.h</in>
+                <in>pci-device.h</in>
+                <in>storage.h</in>
+              </df>
+              <df name="terminal">
+                <in>terminal.h</in>
+              </df>
+              <df name="timer">
+                <in>lapic-timer.h</in>
+                <in>pit.h</in>
+                <in>rtc.h</in>
+                <in>timer.h</in>
+              </df>
+              <df name="video">
+                <in>vga-console.h</in>
+              </df>
+              <in>controller.h</in>
+              <in>device.h</in>
+            </df>
+            <df name="fs">
+              <df name="exec">
+                <in>elf-loader.h</in>
+                <in>loader.h</in>
+              </df>
+              <in>block-based-filesystem.h</in>
+              <in>devfs.h</in>
+              <in>directory.h</in>
+              <in>file.h</in>
+              <in>filesystem.h</in>
+              <in>fs-node.h</in>
+              <in>internal-driver.h</in>
+              <in>pfs-node.h</in>
+              <in>rootfs.h</in>
+              <in>tmpfs.h</in>
+              <in>vfat.h</in>
+              <in>vfs-node.h</in>
+              <in>vfs.h</in>
+            </df>
+            <df name="io">
+              <in>stream.h</in>
+            </df>
+            <df name="kernel">
+              <in>cpu.h</in>
+              <in>device-manager.h</in>
+              <in>irq.h</in>
+              <in>kernel.h</in>
+              <in>log.h</in>
+              <in>module.h</in>
+              <in>object.h</in>
+              <in>om.h</in>
+              <in>process.h</in>
+              <in>sched-entity.h</in>
+              <in>sched.h</in>
+              <in>subsystem.h</in>
+              <in>syscall.h</in>
+              <in>thread-context.h</in>
+              <in>thread.h</in>
+            </df>
+            <df name="mm">
+              <in>allocator.h</in>
+              <in>mm.h</in>
+              <in>object-allocator.h</in>
+              <in>page-allocator.h</in>
+              <in>vma.h</in>
+            </df>
+            <df name="util">
+              <in>allocator.h</in>
+              <in>cmdline.h</in>
+              <in>enumerable.h</in>
+              <in>event.h</in>
+              <in>generator.h</in>
+              <in>list.h</in>
+              <in>lock.h</in>
+              <in>map.h</in>
+              <in>math.h</in>
+              <in>printf.h</in>
+              <in>queue.h</in>
+              <in>ratio.h</in>
+              <in>rtti.h</in>
+              <in>string.h</in>
+              <in>support.h</in>
+              <in>time.h</in>
+            </df>
+            <in>assert.h</in>
+            <in>define.h</in>
+          </df>
+        </df>
+        <df name="kernel">
+          <in>device-manager.cpp</in>
+          <in>irq.cpp</in>
+          <in>kernel.cpp</in>
+          <in>log.cpp</in>
+          <in>module.cpp</in>
+          <in>object.cpp</in>
+          <in>om.cpp</in>
+          <in>process.cpp</in>
+          <in>sched-cfs.cpp</in>
+          <in>sched.cpp</in>
+          <in>syscall.cpp</in>
+          <in>thread.cpp</in>
+        </df>
+        <df name="mm">
+          <in>dlmalloc.cpp</in>
+          <in>mm.cpp</in>
+          <in>object-allocator.cpp</in>
+          <in>page-allocator.cpp</in>
+          <in>simple-page-alloc.cpp</in>
+          <in>vma.cpp</in>
+        </df>
+        <df name="oot">
+          <in>buddy.cpp</in>
+          <in>cmos-rtc.cpp</in>
+          <in>sched-rr.cpp</in>
+        </df>
+        <df name="out">
+        </df>
+        <df name="util">
+          <in>cmdline.cpp</in>
+          <in>event.cpp</in>
+          <in>lock.cpp</in>
+          <in>printf.cpp</in>
+          <in>string.cpp</in>
+          <in>support.cpp</in>
+        </df>
+      </df>
+      <df name="infos-user">
+        <df name="bin">
+          <df name="docs">
+          </df>
+          <df name="subdir1">
+            <df name="subdir11">
+              <df name="subdir111">
+              </df>
+              <df name="subdir112">
+              </df>
+              <df name="subdir113">
+              </df>
+            </df>
+            <df name="subdir12">
+            </df>
+            <df name="subdir13">
+              <df name="subdir131">
+              </df>
+            </df>
+          </df>
+          <df name="subdir2">
+            <df name="subdir21">
+            </df>
+          </df>
+        </df>
+        <df name="inc">
+          <in>infos.h</in>
+        </df>
+        <df name="lib">
+          <in>exec.cpp</in>
+          <in>init.cpp</in>
+          <in>io.cpp</in>
+          <in>printf.cpp</in>
+          <in>string.cpp</in>
+          <in>syscall.cpp</in>
+        </df>
+        <df name="src">
+          <df name="cat">
+            <in>main.cpp</in>
+          </df>
+          <df name="date">
+            <in>main.cpp</in>
+          </df>
+          <df name="init">
+            <in>main.cpp</in>
+          </df>
+          <df name="ls">
+            <in>main.cpp</in>
+          </df>
+          <df name="sched-test1">
+            <in>main.cpp</in>
+          </df>
+          <df name="sched-test2">
+            <in>main.cpp</in>
+          </df>
+          <df name="shell">
+            <in>shell.cpp</in>
+          </df>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>infos/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>infos</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

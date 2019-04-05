@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="infos-user">
+        <df name="lib">
+          <in>exec.cpp</in>
+          <in>init.cpp</in>
+          <in>io.cpp</in>
+          <in>printf.cpp</in>
+          <in>string.cpp</in>
+          <in>syscall.cpp</in>
+        </df>
+        <df name="src">
+          <df name="cat">
+            <in>main.cpp</in>
+          </df>
+          <df name="date">
+            <in>main.cpp</in>
+          </df>
+          <df name="init">
+            <in>main.cpp</in>
+          </df>
+          <df name="ls">
+            <in>main.cpp</in>
+          </df>
+          <df name="sched-test1">
+            <in>main.cpp</in>
+          </df>
+          <df name="sched-test2">
+            <in>main.cpp</in>
+          </df>
+          <df name="shell">
+            <in>shell.cpp</in>
+          </df>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>infos/Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>infos/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>infos</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <folder path="0/infos-user/lib">
+        <ccTool>
+          <incDir>
+            <pElem>infos-user/lib</pElem>
+            <pElem>infos-user/inc</pElem>
+            <pElem>infos-user</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/infos-user/src/cat">
+        <ccTool>
+          <incDir>
+            <pElem>infos-user/src/cat</pElem>
+            <pElem>infos-user/inc</pElem>
+            <pElem>infos-user</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/infos-user/src/date">
+        <ccTool>
+          <incDir>
+            <pElem>infos-user/src/date</pElem>
+            <pElem>infos-user/inc</pElem>
+            <pElem>infos-user</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/infos-user/src/init">
+        <ccTool>
+          <incDir>
+            <pElem>infos-user/src/init</pElem>
+            <pElem>infos-user/inc</pElem>
+            <pElem>infos-user</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/infos-user/src/ls">
+        <ccTool>
+          <incDir>
+            <pElem>infos-user/src/ls</pElem>
+            <pElem>infos-user/inc</pElem>
+            <pElem>infos-user</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/infos-user/src/sched-test1">
+        <ccTool>
+          <incDir>
+            <pElem>infos-user/src/sched-test1</pElem>
+            <pElem>infos-user/inc</pElem>
+            <pElem>infos-user</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/infos-user/src/sched-test2">
+        <ccTool>
+          <incDir>
+            <pElem>infos-user/src/sched-test2</pElem>
+            <pElem>infos-user/inc</pElem>
+            <pElem>infos-user</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/infos-user/src/shell">
+        <ccTool>
+          <incDir>
+            <pElem>infos-user/src/shell</pElem>
+            <pElem>infos-user/inc</pElem>
+            <pElem>infos-user</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="infos-user/lib/exec.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infos-user/lib/init.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infos-user/lib/io.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infos-user/lib/printf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infos-user/lib/string.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infos-user/lib/syscall.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infos-user/src/cat/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infos-user/src/date/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infos-user/src/init/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infos-user/src/ls/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="infos-user/src/sched-test1/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="infos-user/src/sched-test2/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="infos-user/src/shell/shell.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
